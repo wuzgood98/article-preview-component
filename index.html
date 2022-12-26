@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <meta name="author" content="Gideon Addo" />
+  <meta name="keywords" content="HTML CSS JavaScript" />
+  <meta name="description"
+    content="This is a solution to the Article preview component challenge on Frontend Mentor (https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT). Frontend Mentor challenges help you improve your coding skills by building realistic projects." />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Article preview component</title>
+
+</head>
+
+<body>
+
+  <main>
+    <div class="img-container">
+      <img src="./images/drawers.jpg" alt="drawers">
+    </div>
+
+    <div class="info">
+      <p class="title">
+        Shift the overall look and feel by adding these wonderful
+        touches to furniture in your home
+      </p>
+
+      <p class="description">
+        Ever been in a room and felt like something was missing? Perhaps
+        it felt slightly bare and uninviting. I’ve got some simple tips
+        to help you make any room feel complete.
+      </p>
+
+      <div class="user">
+        <div class="img-name">
+          <img src="./images/avatar-michelle.jpg" alt="michelle's avatar" aria-label="michelle's avatar">
+          <div class="name-date">
+            <p class="name">Michelle Appleton</p>
+            <p class="date">28 Jun 2020</p>
+          </div>
+        </div>
+        <button aria-label="show social media links" class="show-popup">
+          <svg class="show-popup" xmlns="http://www.w3.org/2000/svg" width="15" height="13">
+            <path class="show-popup" fill="#6E8098"
+              d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z" />
+          </svg>
+        </button>
+
+      </div>
+    </div>
+    <div class="pop-up">
+      <div class="socials">
+        <p>share</p>
+        <div class="icons">
+          <a href="#">
+            <img src="./images/icon-facebook.svg" alt="icon-facebook" aria-label="facebook icon">
+          </a>
+          <a href="#">
+            <img src="./images/icon-twitter.svg" alt="icon-twitter" aria-label="twitter icon">
+          </a>
+          <a href="#">
+            <img src="./images/icon-pinterest.svg" alt="icon-pinterest" aria-label="pinterest icon">
+          </a>
+        </div>
+      </div>
+
+      <button aria-label="hide social media links" class="hide-popup">
+        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13">
+          <path fill="#6E8098"
+            d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z" />
+        </svg>
+      </button>
+    </div>
+  </main>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
